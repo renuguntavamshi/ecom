@@ -20,7 +20,7 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/user',route)
-app.use("/home",route)
+app.use("/api",route)
 
 
 app.listen(3012,()=>{
